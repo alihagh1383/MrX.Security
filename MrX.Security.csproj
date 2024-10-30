@@ -5,5 +5,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+  <PropertyGroup>
+    <RepositoryUrl>https://github.com/alihagh1383/MrX.Security</RepositoryUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="BuildNuget.*" />
+    <None Remove="*.nupkg" />
+  </ItemGroup>
 
 </Project>
